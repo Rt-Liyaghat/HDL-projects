@@ -1,0 +1,57 @@
+# Example UCF constraints for calculator_top
+# Replace LOC values with your board-specific pins
+
+# Clock (50 MHz)
+NET "clk" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+
+# Active-low reset button
+NET "reset_n" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+
+# Switches for operand A
+NET "sw_a<0>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_a<1>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_a<2>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_a<3>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_a<4>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_a<5>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_a<6>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_a<7>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+
+# Switches for operand B
+NET "sw_b<0>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_b<1>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_b<2>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_b<3>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_b<4>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_b<5>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_b<6>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "sw_b<7>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+
+# Operation select switches
+NET "op_sel<0>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+NET "op_sel<1>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33 | PULLUP;
+
+# Seven segment display (4 digits)
+NET "an<0>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "an<1>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "an<2>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "an<3>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+
+NET "seg<0>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # a
+NET "seg<1>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # b
+NET "seg<2>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # c
+NET "seg<3>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # d
+NET "seg<4>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # e
+NET "seg<5>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # f
+NET "seg<6>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # g
+NET "dp"      LOC = "Pxxx" | IOSTANDARD = LVCMOS33; # decimal point
+
+# LEDs
+NET "leds<0>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "leds<1>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "leds<2>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "leds<3>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "leds<4>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "leds<5>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "leds<6>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
+NET "leds<7>" LOC = "Pxxx" | IOSTANDARD = LVCMOS33;
